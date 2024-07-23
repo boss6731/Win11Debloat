@@ -1,15 +1,15 @@
 -------------------------------------------------------------------------------------------
- Win11Debloat Script - Default Mode
+ Win11Debloat 腳本 - 預設模式
 -------------------------------------------------------------------------------------------
-Win11Debloat will make the following changes:
-- Remove the default selection of apps, the list can be found in the 'Appslist.txt' file.
-- Disable telemetry, diagnostic data, app-launch tracking & targeted ads.
-- Disable & remove Bing search & Cortana in Windows search.
-- Disable tips & tricks on the lockscreen. (This may change your lockscreen wallpaper)
-- Disable tips, tricks, suggestions and ads in start, settings, notifications and more.
-- Disable Windows Copilot. (Windows 11 build 22621+)
-- Show file extensions for known file types.
-- Disable the widget service & hide the icon from the taskbar. 
-- Hide the Chat (meet now) icon from the taskbar.
-- Hide the 3D objects folder in Windows Explorer. (Windows 10 only)
+Win11Debloat 將進行以下更改：
+- 刪除預設選擇的應用程式，清單可以在「Appslist.txt」檔中找到。
+- 禁用遙測、診斷數據、應用啟動跟蹤和定向廣告。
+- 在Windows搜索中禁用和刪除Bing搜索和Cortana。
+- 禁用鎖屏介面上的提示和技巧。（這可能會改變您的鎖屏壁紙）
+- 在開始、設置、通知等中禁用提示、技巧、建議和廣告。
+- 禁用 Windows Copilot。（Windows 11 內部版本 22621+）
+- 顯示已知檔類型的檔案擴展名。
+- 禁用小部件服務並從任務欄中隱藏圖示。
+- 從任務列中隱藏聊天（立即開會）圖示。
+- 在 Windows 資源管理器中隱藏 3D 物件資料夾。（僅限 Windows 10）
 

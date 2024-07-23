@@ -1,63 +1,61 @@
 -------------------------------------------------------------------------------------------
- Win11Debloat Script - Information
+ Win11Debloat Script - 資訊
 -------------------------------------------------------------------------------------------
-Win11Debloat is a simple, easy to use and lightweight PowerShell script that can remove
-pre-installed Windows bloatware apps, disable telemetry and declutter the experience by
-disabling or removing intrusive interface elements, ads and more. No need to go through
-all the settings yourself, or remove apps one by one.
-
--------------------------------------------------------------------------------------------
- All Features
--------------------------------------------------------------------------------------------
-App Removal
-- Remove a wide variety of bloatware apps.
-- Remove all pinned apps from start for the current user, or for all new & existing users. (Windows 11 only)
-
-Telemetry, Tracking & Suggested Content
-- Disable telemetry, diagnostic data, activity history, app-launch tracking & targeted ads.
-- Disable tips, tricks, suggestions & ads across Windows.
-
-Bing, Copilot & More
-- Disable & remove Bing web search & Cortana from Windows search.
-- Disable Windows Copilot. (Windows 11 only)
-- Disable Windows Recall snapshots. (Windows 11 only)
-
-File Explorer
-- Show hidden files, folders & drives.
-- Show file extensions for known file types.
-- Hide the gallery section from the File Explorer sidepanel. (Windows 11 only)
-- Hide the 3D objects, music or onedrive folder from the File Explorer sidepanel. (Windows 10 only)
-- Hide duplicate removable drive entries from the File Explorer sidepanel.
-
-Taskbar
-- Align taskbar icons to the left. (Windows 11 only)
-- Hide or change the search icon/box on the taskbar. (Windows 11 only)
-- Hide the taskview button from the taskbar. (Windows 11 only)
-- Disable the widgets service & hide icon from the taskbar.
-- Hide the chat (meet now) icon from the taskbar.
-
-Context menu
-- Restore the old Windows 10 style context menu. (Windows 11 only)
-- Hide the 'Include in library', 'Give access to' & 'Share' options from the context menu. (Windows 10 only)
-
-Other
-- Disable Xbox game/screen recording (Also stops gaming overlay popups)
-
-Advanced Features
-- Sysprep mode to apply changes to the Windows Default user profile.
+Win11Debloat 是一個簡單、易用且輕量級的 PowerShell 腳本，可以刪除
+預裝 Windows 英國媒體報導應用程式，禁用遙測並通過以下方式整理體驗
+禁用或移除侵入性介面元素、廣告等。無需通過
+自己進行所有設置，或逐個刪除應用程式。
 
 -------------------------------------------------------------------------------------------
- Default mode
+ 所有功能
 -------------------------------------------------------------------------------------------
-The default mode applies the changes that are recommended for most users, this includes:
-- Remove the default selection of apps, the list can be found in the 'Appslist.txt' file.
-- Disable telemetry, diagnostic data, activity history, app-launch tracking & targeted ads.
-- Disable & remove Bing web search & Cortana from Windows search.
-- Disable tips, tricks, suggestions & ads across Windows.
-- Disable Windows Copilot. (Windows 11 only)
-- Show file extensions for known file types.
-- Disable the widget service & hide the icon from the taskbar. 
-- Hide the Chat (meet now) icon from the taskbar.
-- Hide the 3D objects folder under 'This pc' from File Explorer. (Windows 10 only)
-- Hide the 'Include in library', 'Give access to' and 'Share' options from the context menu. (Windows 10 only)
+應用移除
+- 刪除各種英國媒體報導應用程式。
+- 從「開始」 開始刪除目前的使用者或所有新使用者和現有使用者的所有固定應用。（僅限 Windows 11）
 
+遙測、跟蹤和建議內容
+- 禁用遙測、診斷數據、活動歷史記錄、應用啟動跟蹤和定向廣告。
+- 在Windows上禁用提示，技巧，建議和廣告。
+
+Bing、Copilot 等
+- 從Windows搜索中禁用和刪除Bing網路搜索和Cortana。
+- 禁用 Windows Copilot。（僅限 Windows 11）
+- 禁用 Windows Recall 快照。（僅限 Windows 11）
+
+檔資源管理員
+- 顯示隱藏的檔案，資料夾和驅動器。
+- 顯示已知檔類型的檔案擴展名。
+- 從檔案資源管理器側面板中隱藏庫部分。（僅限 Windows 11）
+- 從檔案資源管理器側面板中隱藏 3D 對象、音樂或 onedrive 資料夾。（僅限 Windows 10）
+- 從檔案資源管理器側面板中隱藏重複的可移動驅動器條目。
+
+任務列
+- 將任務列圖示向左對齊。（僅限 Windows 11）
+- 隱藏或更改工作列上的搜尋圖示/框。（僅限 Windows 11）
+- 從任務列中隱藏任務檢視按鈕。（僅限 Windows 11）
+- 禁用小部件服務並從任務欄中隱藏圖示。
+- 從任務列中隱藏聊天（立即開會）圖示。
+上下文功能表
+- 恢復舊的 Windows 10 樣式上下文功能表。（僅限 Windows 11）
+- 從上下文功能表中隱藏「包含在庫中」、」授予訪問許可權“和”共用“選項。（僅限 Windows 10）
+
+其他
+- 關閉Xbox遊戲/螢幕錄製（也會停止遊戲覆蓋彈出視窗）
+
+高級功能
+- Sysprep 模式，用於將更改應用於 Windows 預設使用者配置檔。
+
+-------------------------------------------------------------------------------------------
+ 預設模式
+-------------------------------------------------------------------------------------------
+預設模式將應用建議大多數用戶進行的更改，其中包括：
+- 刪除預設選擇的應用程式，清單可以在「Appslist.txt」檔中找到。
+- 禁用遙測、診斷數據、活動歷史記錄、應用啟動跟蹤和定向廣告。
+- 從Windows搜索中禁用和刪除Bing網路搜索和Cortana。
+- 在Windows上禁用提示，技巧，建議和廣告。
+- 禁用 Windows Copilot。（僅限 Windows 11）
+- 顯示已知檔類型的檔案擴展名。
+- 禁用小部件服務並從任務欄中隱藏圖示。
+- 從任務列中隱藏聊天（立即開會）圖示。
+- 從檔案資源管理器中隱藏「這台電腦」下的 3D 物件資料夾。（僅限 Windows 10）
+- 從上下文功能表中隱藏「包含在庫中」、」授予訪問許可權“和”共用“選項。（僅限 Windows 10）
